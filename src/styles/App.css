@@ -21,6 +21,11 @@
   border-bottom: 2px solid rgba(255, 255, 255, 0.15);
 }
 
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
 @media all and (max-width: 400px) {
   .header {
     flex-direction: column;
@@ -48,6 +53,15 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
+}
+
+.header__desktop-nav span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header__desktop-nav a:hover {
+  cursor: pointer;
 }
 
 @media all and (max-width: 400px) {
@@ -134,4 +148,12 @@
   .home-copy {
     flex-direction: row;
   }
+}
+
+.home-copy__link {
+  color: white;
+}
+
+.home-copy__link:hover {
+  text-decoration: none;
 }
