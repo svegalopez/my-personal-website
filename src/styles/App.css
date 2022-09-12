@@ -159,3 +159,10 @@
 .home-copy__link:hover {
   text-decoration: none;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
