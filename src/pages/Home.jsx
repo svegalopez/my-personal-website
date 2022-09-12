@@ -1,10 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <>
       <section className="hero">
         <div className="hero__heading">
           <h1>
-            I am <span className="highlight">Sebastian</span>
+            {/* Link to home */}I am{" "}
+            <span className="highlight">Sebastian</span>
           </h1>
           <h1>I build Software</h1>
         </div>
@@ -26,7 +31,11 @@ export default function Home() {
         <p>
           My proudest achievement is to have contributed over 70 Pull Requests
           to{" "}
-          <a target="_blank" href="https://proknow.com">
+          <a
+            className="home-copy__link"
+            target="_blank"
+            href="https://proknow.com"
+          >
             ProKnow
           </a>
           , currently used in various large institutions around world.
@@ -34,7 +43,9 @@ export default function Home() {
       </section>
 
       <section className="home-cta">
-        <button className="home-cta__btn">Projects</button>
+        <button onClick={() => navigate("/my-work")} className="home-cta__btn">
+          Projects
+        </button>
       </section>
     </>
   );

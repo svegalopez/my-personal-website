@@ -1,13 +1,17 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <div className="header">
-      <h2>Sebastian Vega</h2>
+      <Link className="header__link" to="/">
+        <h2>Sebastian Vega</h2>
+      </Link>
 
       {/* desktop nav: make reusable in footer */}
       <nav className="header__desktop-nav">
-        <a>
+        <Link className="header__link" to="/my-work">
           <span className="highlight">Projects</span>
-        </a>
+        </Link>
         <a>
           <img
             className="header__desktop-nav-icon"
@@ -21,21 +25,6 @@ export default function Header() {
           />
         </a>
       </nav>
-
-      {/* mobile nav */}
-      {/* <nav>
-        <ul>
-          <li>
-            <a href="">My Work</a>
-          </li>
-          <li>
-            <a href="">In</a>
-          </li>
-          <li>
-            <a href="">Github</a>
-          </li>
-        </ul>
-      </nav> */}
     </div>
   );
 }
