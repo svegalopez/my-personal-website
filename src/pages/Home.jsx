@@ -34,6 +34,7 @@ export default function Home() {
           <a
             className="home-copy__link"
             target="_blank"
+            rel="noreferrer"
             href="https://proknow.com"
           >
             ProKnow
