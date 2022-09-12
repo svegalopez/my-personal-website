@@ -3,7 +3,9 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="hero__heading">
-          <h1>I am Sebastian</h1>
+          <h1>
+            I am <span className="highlight">Sebastian</span>
+          </h1>
           <h1>I build Software</h1>
         </div>
       </section>
@@ -32,7 +34,7 @@ export default function Home() {
       </section>
 
       <section className="home-cta">
-        <button className="home-cta__btn">my work</button>
+        <button className="home-cta__btn">Projects</button>
       </section>
     </>
   );

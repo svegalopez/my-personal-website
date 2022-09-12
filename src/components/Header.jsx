@@ -5,9 +5,21 @@ export default function Header() {
 
       {/* desktop nav: make reusable in footer */}
       <nav className="header__desktop-nav">
-        <a>My Work</a>
-        <a>In</a>
-        <a>Github</a>
+        <a>
+          <span className="highlight">Projects</span>
+        </a>
+        <a>
+          <img
+            className="header__desktop-nav-icon"
+            src={process.env.PUBLIC_URL + "/linkedin.svg"}
+          />
+        </a>
+        <a>
+          <img
+            className="header__desktop-nav-icon"
+            src={process.env.PUBLIC_URL + "/github.svg"}
+          />
+        </a>
       </nav>
 
       {/* mobile nav */}
