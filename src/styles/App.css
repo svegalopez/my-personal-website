@@ -166,3 +166,22 @@
   align-items: center;
   height: 100px;
 }
+
+.project-grid {
+  height: 500px;
+  border: 1px solid white;
+}
+
+.projects-page {
+  padding-top: 100px;
+}
+
+.projects-page h1 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.projects-page .project-grid {
+  margin: 0 auto;
+  width: 80%;
+}
