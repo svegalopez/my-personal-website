@@ -20,8 +20,8 @@ export default function Home() {
       <section className="home-copy">
         <p>
           I am an enthusiastic full stack developer with 8 years of experience
-          in various domains including medical device, aviation, and commodities
-          trading.
+          solving problems in various industries including consumer electronics,
+          aviation, and medical device.
         </p>
         <p>
           My strongest skills are around node.js, react, SQL, typescript,
