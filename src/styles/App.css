@@ -1,14 +1,11 @@
-.my-site {
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-}
-
 .page {
   z-index: 0;
   padding: 24px;
   padding-bottom: 0;
   min-height: calc(100vh - 100px);
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
 }
 
 .header {

@@ -22,7 +22,7 @@ function App() {
   }, [location]);
 
   return (
-    <div className="my-site">
+    <>
       <Header />
 
       <div className="page">
@@ -33,7 +33,7 @@ function App() {
       </div>
 
       <Footer />
-    </div>
+    </>
   );
 }
 
