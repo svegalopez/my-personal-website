@@ -22,18 +22,16 @@ function App() {
   }, [location]);
 
   return (
-    <>
-      <Header />
+    <div className="app">
+      {/* <Header /> */}
 
-      <div className="page">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<MyWork />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<MyWork />} />
+      </Routes>
 
       <Footer />
-    </>
+    </div>
   );
 }
 
