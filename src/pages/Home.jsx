@@ -44,7 +44,7 @@ export default function Home() {
       </section>
 
       <section className="home-cta">
-        <button onClick={() => navigate("/my-work")} className="home-cta__btn">
+        <button onClick={() => navigate("/projects")} className="home-cta__btn">
           Projects
         </button>
       </section>

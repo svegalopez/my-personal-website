@@ -4,7 +4,7 @@ export default function NavBar({ hideProjects }) {
   return (
     <nav className="header__desktop-nav">
       {hideProjects || (
-        <Link className="header__link" to="/my-work">
+        <Link className="header__link" to="/projects">
           <span className="highlight">Projects</span>
         </Link>
       )}
