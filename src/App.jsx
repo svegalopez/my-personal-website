@@ -1,8 +1,8 @@
-import "./styles/App.css";
-import Home from "./pages/Home";
-import MyWork from "./pages/MyWork";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import "./1.styles/App.css";
+import Home from "./2.pages/Home";
+import Projects from "./2.pages/Projects";
+import Header from "./3.components/Header";
+import Footer from "./3.components/Footer";
 import {
   Route,
   Routes,
@@ -23,11 +23,11 @@ function App() {
 
   return (
     <div className="app">
-      {/* <Header /> */}
+      <Header />
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<MyWork />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
 
       <Footer />

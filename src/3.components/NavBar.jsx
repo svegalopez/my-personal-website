@@ -1,13 +1,6 @@
-import { Link } from "react-router-dom";
-
-export default function NavBar({ hideProjects }) {
+export default function NavBar() {
   return (
-    <nav className="header__desktop-nav">
-      {hideProjects || (
-        <Link className="header__link" to="/projects">
-          <span className="highlight">Projects</span>
-        </Link>
-      )}
+    <nav className="nav-bar">
       <a
         target="_blank"
         rel="noreferrer"
@@ -15,14 +8,14 @@ export default function NavBar({ hideProjects }) {
       >
         <img
           alt=""
-          className="header__desktop-nav-icon"
+          className="nav-icon"
           src={process.env.PUBLIC_URL + "/linkedin.svg"}
         />
       </a>
       <a target="_blank" rel="noreferrer" href="https://github.com/svegalopez">
         <img
           alt=""
-          className="header__desktop-nav-icon"
+          className="nav-icon"
           src={process.env.PUBLIC_URL + "/github.svg"}
         />
       </a>
