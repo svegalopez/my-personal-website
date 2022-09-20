@@ -12,15 +12,15 @@ export default function Projects() {
           id="100"
         />
         <ProjectCard
-          body="An app shell to speed up development. Written in Typescript."
+          body="A React app shell to speed up development. Written in Typescript."
           title="App Shell"
           id="200"
         />
 
         <ProjectCard
           body="A dummy description for this project."
-          title="Dummy"
-          id="300"
+          title="Tree Visualizer"
+          id="302"
         />
       </div>
     </div>
