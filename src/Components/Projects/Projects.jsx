@@ -7,14 +7,14 @@ export default function Projects() {
       <h1>Projects</h1>
       <div className="grid">
         <ProjectCard
-          body="A modern http API built with Prisma, GraphQL and Typescript."
-          title="Web Api"
+          body="A modern API built with Prisma, GraphQL and Typescript."
+          title="Root 🌱"
           id="100"
         />
         <ProjectCard
-          body="A React app shell to speed up development. Written in Typescript."
-          title="App Shell"
-          id="200"
+          body="A React app shell to speed up development."
+          title="Hermit 🐚"
+          id="shell"
         />
 
         <ProjectCard
