@@ -1,8 +1,8 @@
 .projects {
     padding: 24px;
-    padding-top: 96px;
     min-height: calc(100vh - 100px);
     background-color: #D3D0CB;
+    padding-bottom: 48px;
 
     .grid {
         display: flex;
@@ -16,7 +16,7 @@
     }
 
     h1 {
-        text-align: left;
+        text-align: center;
         padding-bottom: 24px;
     }
 }

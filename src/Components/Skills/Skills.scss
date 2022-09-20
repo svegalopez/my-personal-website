@@ -4,10 +4,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-bottom: 16px;
 }
   
 .logos-row {
-    min-height: 125px;
+    min-height: 100px;
     display: flex;
     justify-content: space-around;
 }
