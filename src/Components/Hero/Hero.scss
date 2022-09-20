@@ -1,0 +1,39 @@
+.hero {
+    color: #1E2019;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #D3D0CB;
+    min-height: 100%;
+    padding-top: 50px;
+
+    .hero-img {
+        position: relative;
+        margin-top: 24px;
+        background-repeat: no-repeat;
+        background-image: url('https://images.squarespace-cdn.com/content/v1/631ca456bc567e7e9af88cd4/1662822611040-NWWPB2XVOBQNR3L882OJ/unsplash-image-KLbUohEjb04.jpg');
+        height: 40vh;
+        min-height: 100px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        border-bottom-right-radius: 32px;
+    }
+
+    .bubble {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: -16px;
+        bottom: -16px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: #E2C044;
+        width: 50px;
+        height: 50px;
+        box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.75);
+    }
+}

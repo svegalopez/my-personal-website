@@ -1,0 +1,17 @@
+.skills {
+    min-height: calc(100vh - 50px);
+    background-color: #1e2019;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+  
+.logos-row {
+    min-height: 125px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos-row img {
+    max-width: 100px;
+}   

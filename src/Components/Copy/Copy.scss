@@ -1,0 +1,21 @@
+.copy {
+    font-size: 1.25rem;
+    font-weight: 300;
+    min-height: calc(100vh - 50px);
+    background-color: #587B7F;
+    color: white;
+    padding: 32px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        max-width: 600px;
+    }
+
+    a {
+        color: inherit;
+    }
+}

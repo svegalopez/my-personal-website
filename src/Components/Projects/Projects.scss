@@ -1,0 +1,37 @@
+.projects {
+    padding: 24px;
+    padding-top: 96px;
+    min-height: calc(100vh - 100px);
+    background-color: #D3D0CB;
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .project-card {
+            flex-basis: 200px;
+            width: 100%;
+        }
+    }
+
+    h1 {
+        text-align: left;
+        padding-bottom: 24px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .projects {
+        .grid {
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .project-card {
+                flex-basis: 31%;
+                height: 200px;
+                flex-grow: 1;
+            }
+        }
+    }
+}
