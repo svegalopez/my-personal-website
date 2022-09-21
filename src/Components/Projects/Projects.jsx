@@ -16,18 +16,6 @@ export default function Projects() {
           title="Hermit Client"
           id="218"
         />
-
-        <ProjectCard
-          body="A tool for developing Hermit apps"
-          title="Hermit Cli"
-          id="164"
-        />
-
-        <ProjectCard
-          body="A tool for deploying Hermit apps"
-          title="Hermit Cloud"
-          id="shell"
-        />
       </div>
     </div>
   );
