@@ -7,20 +7,26 @@ export default function Projects() {
       <h1>Projects</h1>
       <div className="grid">
         <ProjectCard
-          body="A modern API built with Prisma, GraphQL and Typescript."
-          title="Root 🌱"
-          id="100"
+          body="A library to build server side APIs in node.js."
+          title="Hermit Server"
+          id="1038"
         />
         <ProjectCard
-          body="A React app shell to speed up development."
-          title="Hermit 🐚"
-          id="shell"
+          body="A template for building client side apps with Hermit"
+          title="Hermit Client"
+          id="218"
         />
 
         <ProjectCard
-          body="A dummy description for this project."
-          title="Tree Visualizer"
-          id="302"
+          body="A tool for developing Hermit apps"
+          title="Hermit Cli"
+          id="164"
+        />
+
+        <ProjectCard
+          body="A tool for deploying Hermit apps"
+          title="Hermit Cloud"
+          id="shell"
         />
       </div>
     </div>
