@@ -9,12 +9,14 @@ export default function Projects() {
         <ProjectCard
           body="A library to build server side APIs in node.js."
           title="Hermit Server"
-          id="1038"
+          pic_class="pic-164"
+          link="https://github.com/svegalopez/hermit-server"
         />
         <ProjectCard
           body="A template for building client side apps with Hermit"
           title="Hermit Client"
-          id="218"
+          pic_class="hermit"
+          link="https://github.com/svegalopez/hermit-client"
         />
       </div>
     </div>

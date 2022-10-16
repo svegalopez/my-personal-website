@@ -16,21 +16,13 @@
         background-position: center;
         background-repeat: no-repeat;
 
+        &.hermit {
+            background-image: url('../../../public/hermit.png');
+            background-size: 40%;
+        }
+
         &.pic-164 {
             background-image: url('https://picsum.photos/id/164/1000/1000');
-        }
-
-        &.pic-shell {
-            background-image: url('../../../public/shell.jpg');
-        }
-
-        &.pic-1038 {
-            background-image: url('https://picsum.photos/id/1038/1000/1000');
-        }
-
-        &.pic-218 {
-            background-image: url('https://picsum.photos/id/218/1000/1000');
-            background-position: center;
         }
     }
 
