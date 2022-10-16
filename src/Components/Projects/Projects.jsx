@@ -7,7 +7,7 @@ export default function Projects() {
       <h1>Projects</h1>
       <div className="grid">
         <ProjectCard
-          body="A library to build server side APIs in node.js."
+          body="A template to build server side APIs in node.js."
           title="Hermit Server"
           pic_class="pic-164"
           link="https://github.com/svegalopez/hermit-server"
